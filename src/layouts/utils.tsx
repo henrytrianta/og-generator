@@ -55,8 +55,8 @@ export const RLogo: React.FC<{
   const theme = gString(config, "Theme", defaultTheme).toLowerCase();
   const rlogo =
     theme === "dark"
-      ? "https://railway.app/brand/logo-light.svg"
-      : "https://railway.app/brand/logo-dark.svg";
+      ? "https://res.cloudinary.com/kesato/image/upload/v1629286929/SS%20Community/logo-white_sdlucz.svg"
+      : "https://res.cloudinary.com/kesato/image/upload/v1629286767/SS%20Community/logo-dark_cbbkh9.svg";
 
   return (
     <img
